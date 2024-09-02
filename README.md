@@ -14,7 +14,6 @@ To get started with the Cric-Query Docker project, follow these steps:
 
 ```bash
 cd Downloads/
-apk add bash
 git clone https://github.com/Prachand07/docker.git
 cd Docker
 chmod +x deploy.bat
