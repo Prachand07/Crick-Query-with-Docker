@@ -1,14 +1,20 @@
-Docker based cric-query project
+### Welcome to the Cric-Query Docker Project.
+Cric-Query is a tool for querying cricket-related data.
 
-Prerequisities:
-  Docker Desktop (for Windows/mac)
-  WSL (Windows Subsystem for Linux)
+### Prerequisites
+Before you begin, ensure you have the following installed:
 
-To run the containers, use the following commands:
-'''
-cd Downloads/                                            
-git clone https://github.com/Prachand07/docker.git                                    
+**Docker Desktop** : Required for running Docker containers. You can download it from the Docker website for Windows or macOS.
+**WSL (Windows Subsystem for Linux)**: If you're using Windows, WSL is needed to enable a Linux environment.
+
+To get started with the Cric-Query Docker project, follow these steps:
+
+### Getting started
+
+```bash
+cd Downloads/
+git clone https://github.com/Prachand07/docker.git
 cd Docker
 chmod +x deploy.sh
-./deploy.sh 
-'''
+./deploy.sh
+
