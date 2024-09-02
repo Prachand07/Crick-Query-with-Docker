@@ -1,0 +1,19 @@
+version: '3'
+services:
+   db:
+    image: prachand7/cricquery:database-latest
+    container_name: database
+     ports:
+      - "3306:3306"
+  backend:
+    image: prachand7/cricquery:backend-latest
+    container_name: backend
+    ports:
+      - "3000:3000"  
+    depends_on:
+      -database
+   frontend:
+    image: prachand7/cricquery:frontend-latest
+    container_name: frontend
+    ports:
+      - "8080:80"
