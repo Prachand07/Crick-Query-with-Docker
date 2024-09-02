@@ -17,7 +17,8 @@ git clone https://github.com/Prachand07/docker.git
 cd Docker
 chmod +x deploy.bat
 ./deploy.sh
-
+```
 ### Run the website on:
 '''bash
 http://localhost:8080
+```
