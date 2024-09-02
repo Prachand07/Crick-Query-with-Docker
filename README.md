@@ -19,6 +19,6 @@ chmod +x deploy.bat
 ./deploy.sh
 ```
 ### Run the website on:
-'''bash
+```bash
 http://localhost:8080
 ```
